@@ -37,6 +37,7 @@ html, body {
     align-items: center;
     border: 5px solid #47525d;
     margin: 2px;
+    font-size: 50px;
 }
 
 .box:hover {
@@ -44,8 +45,11 @@ html, body {
 }
 
 #header {
-	width: 50%;
-	height: 200px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 50px;
 }
 
 .clicked-x {
@@ -61,9 +65,20 @@ html, body {
 .draw, .x-won, .o-won {
 	font-size: 30px !important;
 	margin-top: 10px !important;
-	margin-left: 168px !important;
 	border-radius: 10px !important;
+	width: 100%;
+
 }
+
+/*
+.x-won {
+	 background-color: #7195ce !important;
+}
+
+.o-won {
+	 //background-color: #4abf44 !important;
+}
+*/
 
 .show {
 	visibility: visible;
